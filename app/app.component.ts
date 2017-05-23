@@ -1,7 +1,14 @@
-import{Component} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { RouterModule,Routes } from '@angular/router';
 
 @Component({
+    moduleId: module.id,
     selector:'my-app',
-    template:'<h1>Lol Its working...</h1>'
+    templateUrl:'app.component.html'
+    
 })
-export class AppComponent{}
+export class AppComponent {
+ 
+    
+}
