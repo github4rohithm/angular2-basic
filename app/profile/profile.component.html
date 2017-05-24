@@ -1,2 +1,26 @@
-<h1>Hi Customer</h1>
-<p>test</p>
+
+<div class="container">
+  <h2>User - List</h2>                                                                                      
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>User Name</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let profile of profiles">
+        <td>{{profile.id}}</td>
+        <td>{{profile.userName}}</td>
+        <td>{{profile.firstName}}</td>
+        <td>{{profile.lastName}}</td>
+        <td>{{profile.password}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>

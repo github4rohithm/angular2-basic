@@ -9,6 +9,7 @@ import { AppComponent }  from './app.component';
 import{ProfileComponent} from './profile/profile.component'
 import{routing} from './app.routes'
 import { HomeComponent } from "./home/home.component";
+import { AddProfileComponent } from "./profile/add.profile.component";
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HomeComponent } from "./home/home.component";
     declarations: [
         AppComponent,
         ProfileComponent,
-        HomeComponent
+        HomeComponent,
+        AddProfileComponent
       
     ],
     providers: [
